@@ -4,7 +4,7 @@
 
 
 # Formatting to ext4 /dev/sda2
-mkfs.ext4 /dev/sda2 
+mkfs.ext4 -F /dev/sda2 
 
 # Make Swap 
 mkswap /dev/sda1
