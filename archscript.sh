@@ -20,7 +20,7 @@ pacstrap /mnt base linux linux-firmware nano
 genfstab -U /mnt >> /mnt/etc/fstab 
 
 # arch-chroot 
-arch-chroot /mnt 
+arch-chroot /mnt ./archscript2.sh
 
 # timezone 
 ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
